@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+}
+li {
+  display: inline;
+  float: left;
+}
+a {
+  display: block;
+  padding: 8px;
+  color: #79a3b1;
+  background-color: #ffffff;
+}
+
+.header-bar {
+  display: flex;
+  position: fixed;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid #456268;
+  background-color: white;
+  font-size: 36;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+}
+.heading {
+  font-size: 34px;
+  color: #456268;
+  position: relative;
+  top: 30px;
+  left: 42px;
+  font-family: "Roboto", sans-serif;
+  font: weight 400;
+}
+.menu {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  color: #79a3b1;
+  margin: 0px;
+}
+.bank-logo {
+  position: fixed;
+  top: 150px;
+  left: 120px;
+  width: 499px;
+  height: 489px;
+}
+.get-started {
+  position: relative;
+  top: 441px;
+  left: 10px;
+  border-radius: 5px;
+  color: #456268;
+  border-color: #456268;
+  padding: 0px;
+  margin: 0px;
+  height: 50px;
+  width: 140px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.quote {
+  position: relative;
+  color: #456268;
+  font-weight: bolder;
+  font-size: 48px;
+  left: 621px;
+  top: 148px;
+  font-family: "Roboto", sans-serif;
+}
+.quote-2 {
+  position: relative;
+  color: #79a3b1;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  top: 200px;
+  left: 221px;
+}
+
+.table-striped > tbody > tr:nth-child(2n + 1) > td,
+.table-striped > tbody > tr:nth-child(2n + 1) > th {
+  background-color: rgb(180, 235, 232);
+}
